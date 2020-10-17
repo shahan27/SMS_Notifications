@@ -5,7 +5,7 @@ async function sendText(message){
 
   let encoded = new URLSearchParams()
   encoded.append("To", RECIPIENT)
-  encoded.append("From", '+13479017580')
+  encoded.append("From", '+19388887573')
   encoded.append("Body", message)
   
   let token = btoa(ACCOUNT_SID + ":" + AUTH_TOKEN)
